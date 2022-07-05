@@ -1,3 +1,44 @@
+Clone for E-commerce Amazone site Check link:- https://amazon-react-1.netlify.app/
+
+Used JavaScript, React, HTML and CSS
+
+Main function of the program is to fetch data from https://dummyjson.com/docs/products API
+Used async function to display data, check for errors and current loading status
+
+CSS flex-box helped with product rendering and creating responsive product detail page
+
+useReducer provides cart functionality to add items, delete and increase qty
+
+JavaScript reduce, find and map higher calling function used to calculate total items in the cart, subtotal for payment and amend cart Array
+
+Data stored on client-side local storage to survive refreshes
+
+Cart renderers deserted version if it is empty
+
+Screenshot
+
+![ss3](https://user-images.githubusercontent.com/6619450/177315799-bc4f520b-403b-4223-933b-9da39938f78f.PNG)
+![ss4](https://user-images.githubusercontent.com/6619450/177315807-76f805d2-cb52-4719-9e08-dcd622282cbf.PNG)
+![ss5](https://user-images.githubusercontent.com/6619450/177315808-45b5cead-776b-4255-af96-74a97f13bb87.PNG)
+![ss2](https://user-images.githubusercontent.com/6619450/177315811-56044c48-fff3-4d3d-821c-3f88f1ef1585.PNG)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
