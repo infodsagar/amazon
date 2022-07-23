@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useContext } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
@@ -13,7 +13,7 @@ export const Dropdown = (props) => {
 
   const handleItemClick = (target, target2) => {
     const newTarget = parseInt(target);
-    console.log(newTarget);
+
     selectedItem == target2.id
       ? setSelectedItem(null)
       : setSelectedItem(target2.id);
