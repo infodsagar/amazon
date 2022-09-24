@@ -7,6 +7,7 @@ import { Item } from './pages/item';
 import { Cart } from './pages/cart';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { CartContextProvider } from './context/CartContext';
+import { Practice } from './pages/practice';
 
 const url = 'https://dummyjson.com/products';
 
@@ -20,6 +21,7 @@ function App() {
           <Route path='/item/:id' element={<Item />} />
           <Route path='/cart' element={<Cart />} />
           <Route path='*' element={<ErrorPage />} />
+          <Route path='/prac' element={<Practice />} />
         </Routes>
       </Router>
     </CartContextProvider>
